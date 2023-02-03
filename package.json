@@ -1,0 +1,20 @@
+{
+	"name": "export-users",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"pkg": {
+		"scripts": "build/**/*.js",
+		"targets": [
+			"node14-win-x64"
+		],
+		"outputPath": "."
+	},
+	"scripts": {
+		"start": "node index",
+		"build": "pkg index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
